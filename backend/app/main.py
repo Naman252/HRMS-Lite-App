@@ -13,7 +13,7 @@ def read_root():
 # CORS so React can talk to this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://192.168.1.4:3000"],
+    allow_origins=["https://hrms-lite-app-frontend.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
